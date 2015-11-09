@@ -19,7 +19,7 @@
 		BECFDC8D1BF1205000123912 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC8C1BF1205000123912 /* SlideMenuController.swift */; };
 		C9A85841540A758493C4F47A12BCFA72 /* Pods-WiLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46D054F44FCD7FDA42488883F24FCD /* Pods-WiLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA87BA04FE4DC4451D789D29275440C /* Pods-WiLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2080643DF2BC941287BD767069977F5 /* Pods-WiLibrary_Example-dummy.m */; };
-		F8E0A530782A674BA2775D35BEF516E9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92EDB92EA83DD96B37B0D3593B8305 /* String.swift */; };
+		F8E0A530782A674BA2775D35BEF516E9 /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92EDB92EA83DD96B37B0D3593B8305 /* StringExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		A87170BE959BA50A2B5544370A32FDF6 /* Pods-WiLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WiLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5C5E11A670B9D7CC30E180E855AA7C9 /* WiLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WiLibrary-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA92EDB92EA83DD96B37B0D3593B8305 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BA92EDB92EA83DD96B37B0D3593B8305 /* StringExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
 		BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		BECFDC8C1BF1205000123912 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
 		C431AE9367F42CDCC403DDF224A466DB /* WiLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,7 +220,7 @@
 		95EE6BB158178AEB1D8B583EA4DA7C6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BA92EDB92EA83DD96B37B0D3593B8305 /* String.swift */,
+				BA92EDB92EA83DD96B37B0D3593B8305 /* StringExtention.swift */,
 				BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */,
 				BECFDC8C1BF1205000123912 /* SlideMenuController.swift */,
 			);
@@ -422,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E0A530782A674BA2775D35BEF516E9 /* String.swift in Sources */,
+				F8E0A530782A674BA2775D35BEF516E9 /* StringExtention.swift in Sources */,
 				BECFDC8D1BF1205000123912 /* SlideMenuController.swift in Sources */,
 				BAD1E4272F922FC4C7AFAEE42F0E5352 /* WiLibrary-dummy.m in Sources */,
 			);
