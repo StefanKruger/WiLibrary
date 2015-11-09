@@ -3,7 +3,7 @@ import Foundation
 extension String{
     
     
-    func setMyText()->String{
+    public func setMyText()->String{
         return "hello there"
     }
     
