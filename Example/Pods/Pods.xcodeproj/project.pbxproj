@@ -19,6 +19,7 @@
 		BECFDCAD1BF1374900123912 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCAA1BF1374900123912 /* Extensions */; };
 		BECFDCAE1BF1374900123912 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCAB1BF1374900123912 /* Network */; };
 		BECFDCAF1BF1374900123912 /* SlidingMenu in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCAC1BF1374900123912 /* SlidingMenu */; };
+		BECFDCB11BF139DD00123912 /* DataLayer in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCB01BF139DD00123912 /* DataLayer */; };
 		C9A85841540A758493C4F47A12BCFA72 /* Pods-WiLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46D054F44FCD7FDA42488883F24FCD /* Pods-WiLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA87BA04FE4DC4451D789D29275440C /* Pods-WiLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2080643DF2BC941287BD767069977F5 /* Pods-WiLibrary_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		BECFDCAA1BF1374900123912 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
 		BECFDCAB1BF1374900123912 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
 		BECFDCAC1BF1374900123912 /* SlidingMenu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SlidingMenu; sourceTree = "<group>"; };
+		BECFDCB01BF139DD00123912 /* DataLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataLayer; sourceTree = "<group>"; };
 		C431AE9367F42CDCC403DDF224A466DB /* WiLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AD648C8F48D738AEACAA2D76D74E68 /* Pods-WiLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WiLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DC0D0D07FF13BED9F1D90348A55E1E55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 		95EE6BB158178AEB1D8B583EA4DA7C6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BECFDCB01BF139DD00123912 /* DataLayer */,
 				BECFDCAA1BF1374900123912 /* Extensions */,
 				BECFDCAB1BF1374900123912 /* Network */,
 				BECFDCAC1BF1374900123912 /* SlidingMenu */,
@@ -400,6 +403,7 @@
 			files = (
 				BECFDCAD1BF1374900123912 /* Extensions in Resources */,
 				BECFDCAE1BF1374900123912 /* Network in Resources */,
+				BECFDCB11BF139DD00123912 /* DataLayer in Resources */,
 				BECFDCAF1BF1374900123912 /* SlidingMenu in Resources */,
 				BECFDCA91BF135EA00123912 /* ConnectionLayer in Resources */,
 				786FBD2FEAB9D27CE0E8C3142380413C /* WiLibrary.bundle in Resources */,
