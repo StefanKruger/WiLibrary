@@ -1,0 +1,6 @@
+framework module WiLibrary {
+  umbrella header "WiLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

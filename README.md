@@ -27,3 +27,4 @@ Stefan, stefank@wigroup.co.za
 ## License
 
 WiLibrary is available under the MIT license. See the LICENSE file for more info.
+# WiLibrary
