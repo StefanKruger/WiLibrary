@@ -83,6 +83,9 @@ public class Reach {
     
 }
 
+
+
+
 extension ReachabilityStatus {
     private init(reachabilityFlags flags: SCNetworkReachabilityFlags) {
         let connectionRequired = flags.contains(.ConnectionRequired)
