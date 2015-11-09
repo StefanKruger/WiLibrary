@@ -17,12 +17,7 @@
 		BAD1E4272F922FC4C7AFAEE42F0E5352 /* WiLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B59931D6E489067BD5390260DF0D557 /* WiLibrary-dummy.m */; };
 		BECFDC4D1BF0CE5600123912 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */; };
 		BECFDC8D1BF1205000123912 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC8C1BF1205000123912 /* SlideMenuController.swift */; };
-		BECFDCA11BF1357F00123912 /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC9B1BF1357F00123912 /* HTTPSecurity.swift */; };
-		BECFDCA21BF1357F00123912 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC9C1BF1357F00123912 /* Operation.swift */; };
-		BECFDCA31BF1357F00123912 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC9D1BF1357F00123912 /* README.md */; };
-		BECFDCA41BF1357F00123912 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC9E1BF1357F00123912 /* Request.swift */; };
-		BECFDCA51BF1357F00123912 /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC9F1BF1357F00123912 /* StatusCode.swift */; };
-		BECFDCA61BF1357F00123912 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDCA01BF1357F00123912 /* Upload.swift */; };
+		BECFDCA91BF135EA00123912 /* ConnectionLayer in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCA81BF135EA00123912 /* ConnectionLayer */; };
 		C9A85841540A758493C4F47A12BCFA72 /* Pods-WiLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46D054F44FCD7FDA42488883F24FCD /* Pods-WiLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA87BA04FE4DC4451D789D29275440C /* Pods-WiLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2080643DF2BC941287BD767069977F5 /* Pods-WiLibrary_Example-dummy.m */; };
 		F8E0A530782A674BA2775D35BEF516E9 /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92EDB92EA83DD96B37B0D3593B8305 /* StringExtention.swift */; };
@@ -81,12 +76,7 @@
 		BA92EDB92EA83DD96B37B0D3593B8305 /* StringExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
 		BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		BECFDC8C1BF1205000123912 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
-		BECFDC9B1BF1357F00123912 /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
-		BECFDC9C1BF1357F00123912 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
-		BECFDC9D1BF1357F00123912 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BECFDC9E1BF1357F00123912 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		BECFDC9F1BF1357F00123912 /* StatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
-		BECFDCA01BF1357F00123912 /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		BECFDCA81BF135EA00123912 /* ConnectionLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConnectionLayer; sourceTree = "<group>"; };
 		C431AE9367F42CDCC403DDF224A466DB /* WiLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AD648C8F48D738AEACAA2D76D74E68 /* Pods-WiLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WiLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DC0D0D07FF13BED9F1D90348A55E1E55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -232,7 +222,7 @@
 		95EE6BB158178AEB1D8B583EA4DA7C6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BECFDC8E1BF1347300123912 /* ConnectionLayer */,
+				BECFDCA81BF135EA00123912 /* ConnectionLayer */,
 				BA92EDB92EA83DD96B37B0D3593B8305 /* StringExtention.swift */,
 				BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */,
 				BECFDC8C1BF1205000123912 /* SlideMenuController.swift */,
@@ -246,19 +236,6 @@
 				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BECFDC8E1BF1347300123912 /* ConnectionLayer */ = {
-			isa = PBXGroup;
-			children = (
-				BECFDC9B1BF1357F00123912 /* HTTPSecurity.swift */,
-				BECFDC9C1BF1357F00123912 /* Operation.swift */,
-				BECFDC9D1BF1357F00123912 /* README.md */,
-				BECFDC9E1BF1357F00123912 /* Request.swift */,
-				BECFDC9F1BF1357F00123912 /* StatusCode.swift */,
-				BECFDCA01BF1357F00123912 /* Upload.swift */,
-			);
-			name = ConnectionLayer;
 			sourceTree = "<group>";
 		};
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
@@ -421,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECFDCA91BF135EA00123912 /* ConnectionLayer in Resources */,
 				786FBD2FEAB9D27CE0E8C3142380413C /* WiLibrary.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,14 +426,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BECFDCA61BF1357F00123912 /* Upload.swift in Sources */,
-				BECFDCA31BF1357F00123912 /* README.md in Sources */,
 				F8E0A530782A674BA2775D35BEF516E9 /* StringExtention.swift in Sources */,
-				BECFDCA51BF1357F00123912 /* StatusCode.swift in Sources */,
-				BECFDCA11BF1357F00123912 /* HTTPSecurity.swift in Sources */,
 				BECFDC8D1BF1205000123912 /* SlideMenuController.swift in Sources */,
-				BECFDCA41BF1357F00123912 /* Request.swift in Sources */,
-				BECFDCA21BF1357F00123912 /* Operation.swift in Sources */,
 				BAD1E4272F922FC4C7AFAEE42F0E5352 /* WiLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
