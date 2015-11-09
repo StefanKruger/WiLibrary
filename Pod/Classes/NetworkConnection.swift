@@ -44,7 +44,7 @@ public enum ReachabilityStatus: CustomStringConvertible  {
 
 public class Reach {
     
-    public func connectionStatus() -> ReachabilityStatus {
+    func connectionStatus() -> ReachabilityStatus {
         var zeroAddress = sockaddr_in()
         zeroAddress.sin_len = UInt8(sizeofValue(zeroAddress))
         zeroAddress.sin_family = sa_family_t(AF_INET)
@@ -64,7 +64,7 @@ public class Reach {
     }
     
     
-    public func monitorReachabilityChanges() {
+    func monitorReachabilityChanges() {
         let host = "google.com"
         var context = SCNetworkReachabilityContext(version: 0, info: nil, retain: nil, release: nil, copyDescription: nil)
         let reachability = SCNetworkReachabilityCreateWithName(nil, host)!
