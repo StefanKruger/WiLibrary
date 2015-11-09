@@ -15,6 +15,7 @@
 		786FBD2FEAB9D27CE0E8C3142380413C /* WiLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C431AE9367F42CDCC403DDF224A466DB /* WiLibrary.bundle */; };
 		79E2A6FE771C8FFD973FF7EA133C4AA6 /* Pods-WiLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03633DBEE74ED1E98FE0619A653A9936 /* Pods-WiLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAD1E4272F922FC4C7AFAEE42F0E5352 /* WiLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B59931D6E489067BD5390260DF0D557 /* WiLibrary-dummy.m */; };
+		BECFDC4D1BF0CE5600123912 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */; };
 		C9A85841540A758493C4F47A12BCFA72 /* Pods-WiLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D46D054F44FCD7FDA42488883F24FCD /* Pods-WiLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA87BA04FE4DC4451D789D29275440C /* Pods-WiLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2080643DF2BC941287BD767069977F5 /* Pods-WiLibrary_Example-dummy.m */; };
 		F8E0A530782A674BA2775D35BEF516E9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92EDB92EA83DD96B37B0D3593B8305 /* String.swift */; };
@@ -71,6 +72,7 @@
 		B5C5E11A670B9D7CC30E180E855AA7C9 /* WiLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WiLibrary-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA92EDB92EA83DD96B37B0D3593B8305 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		C431AE9367F42CDCC403DDF224A466DB /* WiLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AD648C8F48D738AEACAA2D76D74E68 /* Pods-WiLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WiLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DC0D0D07FF13BED9F1D90348A55E1E55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				BA92EDB92EA83DD96B37B0D3593B8305 /* String.swift */,
+				BECFDC4C1BF0CE5600123912 /* NetworkConnection.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,7 +357,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -400,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECFDC4D1BF0CE5600123912 /* NetworkConnection.swift in Sources */,
 				EBA87BA04FE4DC4451D789D29275440C /* Pods-WiLibrary_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5F815565C1948CE5E56B0739CF5A0D4 /* Pods-WiLibrary_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -672,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A87170BE959BA50A2B5544370A32FDF6 /* Pods-WiLibrary_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
