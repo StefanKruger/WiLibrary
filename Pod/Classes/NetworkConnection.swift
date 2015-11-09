@@ -11,6 +11,9 @@ import Foundation
 import SystemConfiguration
 
 
+
+
+
 let ReachabilityStatusChangedNotification = "ReachabilityStatusChangedNotification"
 
 enum ReachabilityType: CustomStringConvertible {
