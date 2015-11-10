@@ -15,6 +15,7 @@
 		786FBD2FEAB9D27CE0E8C3142380413C /* WiLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C431AE9367F42CDCC403DDF224A466DB /* WiLibrary.bundle */; };
 		79E2A6FE771C8FFD973FF7EA133C4AA6 /* Pods-WiLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03633DBEE74ED1E98FE0619A653A9936 /* Pods-WiLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAD1E4272F922FC4C7AFAEE42F0E5352 /* WiLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B59931D6E489067BD5390260DF0D557 /* WiLibrary-dummy.m */; };
+		BE69D6151BF1BD740087CAF2 /* CustomModals in Resources */ = {isa = PBXBuildFile; fileRef = BE69D6141BF1BD740087CAF2 /* CustomModals */; };
 		BECFDCA91BF135EA00123912 /* ConnectionLayer in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCA81BF135EA00123912 /* ConnectionLayer */; };
 		BECFDCAD1BF1374900123912 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCAA1BF1374900123912 /* Extensions */; };
 		BECFDCAE1BF1374900123912 /* Network in Resources */ = {isa = PBXBuildFile; fileRef = BECFDCAB1BF1374900123912 /* Network */; };
@@ -74,6 +75,7 @@
 		A87170BE959BA50A2B5544370A32FDF6 /* Pods-WiLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WiLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B5C5E11A670B9D7CC30E180E855AA7C9 /* WiLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WiLibrary-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE69D6141BF1BD740087CAF2 /* CustomModals */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomModals; sourceTree = "<group>"; };
 		BECFDCA81BF135EA00123912 /* ConnectionLayer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConnectionLayer; sourceTree = "<group>"; };
 		BECFDCAA1BF1374900123912 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
 		BECFDCAB1BF1374900123912 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		257B13044E5BD18289A3C76EF58443C1 /* WiLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				95EE6BB158178AEB1D8B583EA4DA7C6E /* Classes */,
 				8BEF37D61BEFB5F1914A42A1E4879384 /* Pod */,
 				0E2FB2674917F54B4CAA5F8ECFEBFFBD /* Support Files */,
 			);
@@ -208,7 +211,6 @@
 		8BEF37D61BEFB5F1914A42A1E4879384 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				95EE6BB158178AEB1D8B583EA4DA7C6E /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -224,13 +226,15 @@
 		95EE6BB158178AEB1D8B583EA4DA7C6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BE69D6141BF1BD740087CAF2 /* CustomModals */,
 				BECFDCB01BF139DD00123912 /* DataLayer */,
 				BECFDCAA1BF1374900123912 /* Extensions */,
 				BECFDCAB1BF1374900123912 /* Network */,
 				BECFDCAC1BF1374900123912 /* SlidingMenu */,
 				BECFDCA81BF135EA00123912 /* ConnectionLayer */,
 			);
-			path = Classes;
+			name = Classes;
+			path = Pod/Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -403,6 +407,7 @@
 			files = (
 				BECFDCAD1BF1374900123912 /* Extensions in Resources */,
 				BECFDCAE1BF1374900123912 /* Network in Resources */,
+				BE69D6151BF1BD740087CAF2 /* CustomModals in Resources */,
 				BECFDCB11BF139DD00123912 /* DataLayer in Resources */,
 				BECFDCAF1BF1374900123912 /* SlidingMenu in Resources */,
 				BECFDCA91BF135EA00123912 /* ConnectionLayer in Resources */,
